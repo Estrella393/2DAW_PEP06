@@ -1,0 +1,5 @@
+n1=float(input('Introduce la calificación en el RA1 '))
+n2=float(input('Introduce la calificación en el RA2 '))
+n3=float(input('Introduce la calificación en el RA3 '))
+t=int(n1*0.2+n2*0.6+n3*0.2)
+print("Media: ", t)

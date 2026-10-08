@@ -1,0 +1,6 @@
+b=input('Introduce la base')
+print(b)
+a=input('Introduce la altura')
+print(a)
+print('Perimetro', 2*a+2*b)
+print('Area', a*b)
