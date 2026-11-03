@@ -17,3 +17,6 @@ print("Conjunto sin duplicados:", numeros_repetidos)
 numeros.add(40)
 numeros.remove(10)
 
+#todos sus elementos tiene que ser inmutables,osea, no puedo meter listas pero si duplas
+#no sale odenado al recorerlo, a no ser que hagamos otra con sorted
+#operaciones: & | - ^ etc

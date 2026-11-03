@@ -24,3 +24,8 @@ con_lista.remove("Zelda")
 print("Hola" in tupla1)
 print(tupla1.index("Hola"))#devuelve la posición de la primera aparición del elemento
 print(tupla1.count("Hola"))
+
+
+#si tengo una lista dentro eso si lo puedo modificar
+tupla=(3,2,[4,6]) 
+tupla1[2][0]=10
