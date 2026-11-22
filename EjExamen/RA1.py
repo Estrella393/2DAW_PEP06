@@ -37,3 +37,26 @@ resultado = comprobarTodo and f"Todas son correctas. Suma: {n1+n2}"
 mensaje = resultado or "Error en alguna"
 #ejemplo si es correcto : (True and True) or True:True
 print(mensaje)
+
+
+
+"""EXCEPCIONES:
+try:
+    edad = int("hola")
+except ValueError:
+    print("Debes introducir un número válido.")
+    
+    
+    try:
+    resultado = "Hola" + 5
+except TypeError:
+    print("No puedes sumar un texto y un número de esta manera.")
+    
+    try:
+    numero = int(input("Número: "))
+    print(10 / numero)
+
+except Exception:
+    print("Algo ha salido mal.")
+    
+    otras:ZeroDivisionError"""
